@@ -1,0 +1,131 @@
+
+body {
+
+  text-align: center;
+  background-color: #FCF7F6;
+}
+
+.head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.head img {
+
+  height: auto;
+  width: 100px;
+}
+
+.sections {
+
+  display: flex;
+  justify-content: space-around;
+}
+.sections a {
+
+ 
+  border-radius: 25px;
+  padding: 10px;
+  background-color: darkgray;
+
+}
+
+.sections :visited {
+
+  color: white;
+
+}
+.mission-container {
+
+    background-image: url("https://images.unsplash.com/photo-1562307534-a03738d2a81a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+}
+
+
+.text-over {
+
+    margin: auto;
+    background-color: none;
+    width: 100%;
+    color: seashell;
+}
+
+.gallery img {
+
+
+  height: auto;
+  width: 100%;
+  box-shadow: 5px 5px;
+
+}
+
+.gallery {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.product h2 {
+
+  margin: 5px;
+}
+
+.Employees {
+  text-align: left;
+  background-color: #E3E0DF;
+}
+
+.employee {
+  
+
+
+  }
+
+  .product {
+  
+border: 1px solid black;
+box-shadow: 5px 1px 0 #E3E0DF;
+
+  }
+
+  .employee :hover {
+  
+
+cursor: pointer;
+  }
+
+
+.employee img {
+  height: auto;
+  width: 100%;
+  
+
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+
+}
+
+.footerSections {
+
+    display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+h2 {
+  
+}
